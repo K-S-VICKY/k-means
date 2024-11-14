@@ -9,7 +9,6 @@ from sklearn.cluster import KMeans
 from sklearn.mixture import GaussianMixture
 
 app = Flask(__name__)
-
 # Set upload folder and allowed extensions
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'csv'}
